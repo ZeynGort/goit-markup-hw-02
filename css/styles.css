@@ -42,10 +42,10 @@ li {
 .header-contacts a:hover {
   color: #2196f3;
 }
-.main {
+.base {
   background-color: #2f303a;
 }
-.main h1 {
+.base h1 {
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -56,7 +56,7 @@ li {
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
-.main-order {
+.base-order {
   color: #fff;
   background-color: #2196f3;
   text-align: center;
