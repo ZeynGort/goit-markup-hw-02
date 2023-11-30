@@ -13,6 +13,10 @@ li {
 :root {
   --text-color: #757575;
 }
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--head-color);
+}
 .header-logo {
   color: #000;
   font-family: Raleway;
@@ -57,7 +61,6 @@ li {
 .base h1 {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
@@ -75,10 +78,9 @@ li {
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.96px;
+  cursor: pointer;
 }
 .advantages-head {
-  color: var(--head-color);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -89,7 +91,6 @@ li {
 .advantages-text {
   color: var(--text-color);
 
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -97,10 +98,8 @@ li {
   letter-spacing: 0.42px;
 }
 .about-head {
-  color: var(--head-color);
-
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -114,10 +113,8 @@ li {
   background-color: #fff;
 }
 .team-head {
-  color: var(--head-color);
-
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -125,10 +122,8 @@ li {
   letter-spacing: 1.08px;
 }
 .team-name {
-  color: var(--head-color);
-
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -139,7 +134,7 @@ li {
   color: var(--text-color);
 
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -182,10 +177,9 @@ footer {
   letter-spacing: 0.42px;
 }
 .portfolio-button {
-  color: var(--head-color);
   background-color: #f5f4fa;
   text-align: center;
-  font-family: Roboto;
+  cursor: pointer;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -200,7 +194,6 @@ footer {
 .portfolio-head {
   color: var(--head-color);
 
-  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -210,7 +203,6 @@ footer {
 .portfolio-text {
   color: var(--text-color);
 
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
