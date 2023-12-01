@@ -38,6 +38,7 @@ body {
 .header-navigation a:hover {
   color: var(--selection-color);
 }
+
 .header-contacts a {
   color: var(--text-color);
   font-family: Roboto;
