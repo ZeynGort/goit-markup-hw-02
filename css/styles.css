@@ -25,7 +25,7 @@ body {
 .header-logo span {
   color: var(--selection-color);
 }
-.header-navigation .link {
+.header-navigation a {
   color: var(--head-color);
   font-family: Roboto;
   font-size: 14px;
